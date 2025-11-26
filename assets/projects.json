@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Site Vitrine Moderne",
+    "description": "Landing page professionnelle réalisée pour un client.",
+    "type": "vitrine",
+    "image": "https://picsum.photos/600/400?1"
+  },
+  {
+    "title": "Application Web React",
+    "description": "Application complète avec API REST.",
+    "type": "webapp",
+    "image": "https://picsum.photos/600/400?2"
+  },
+  {
+    "title": "Projet d'école",
+    "description": "Projet full JS réalisé dans un cadre pédagogique.",
+    "type": "ecole",
+    "image": "https://picsum.photos/600/400?3"
+  }
+]
