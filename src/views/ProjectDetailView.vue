@@ -5,10 +5,34 @@
       <div class="card-surface p-6 space-y-4">
         <h2 class="text-xl font-semibold text-slate-900">Informations clés</h2>
         <ul class="space-y-2 text-slate-700">
-          <li><span class="font-semibold">ID :</span> {{ project.id }}</li>
           <li><span class="font-semibold">Titre :</span> {{ project.nom_projet }}</li>
-          <li><span class="font-semibold">Lien GitHub :</span> {{ project.lien_github || 'N/A' }}</li>
-          <li><span class="font-semibold">Lien projet :</span> {{ project.lien_projet || 'N/A' }}</li>
+          <li><span class="font-semibold">Description :</span> {{ project.description_courte }}</li>
+          <li>
+            <span class="font-semibold">Lien GitHub :</span>
+            <a
+              v-if="project.lien_github"
+              :href="project.lien_github"
+              class="text-primary hover:underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ouvrir le dépôt
+            </a>
+            <span v-else>Non disponible</span>
+          </li>
+          <li>
+            <span class="font-semibold">Lien projet :</span>
+            <a
+              v-if="project.lien_projet"
+              :href="project.lien_projet"
+              class="text-primary hover:underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Voir la démo
+            </a>
+            <span v-else>Non disponible</span>
+          </li>
         </ul>
         <RouterLink to="/projects" class="text-primary font-semibold hover:underline text-sm">
           ← Retour aux projets

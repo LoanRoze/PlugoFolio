@@ -4,7 +4,7 @@
       <div class="space-y-2">
         <p class="text-sm uppercase tracking-wide text-primary font-semibold">Contact</p>
         <h2 class="text-2xl font-bold text-slate-900">Écrivons quelque chose ensemble</h2>
-        <p class="text-slate-600">Validation côté client et message de confirmation simulé.</p>
+        <p class="text-slate-600">Validation côté client et redirection vers votre messagerie.</p>
       </div>
       <form class="space-y-4" @submit.prevent="handleSubmit">
         <div class="grid md:grid-cols-2 gap-4">
@@ -46,7 +46,7 @@
           >
             Envoyer
           </button>
-          <p v-if="success" class="text-green-600 text-sm font-medium">Message envoyé ! (simulation)</p>
+          <p v-if="success" class="text-green-600 text-sm font-medium">Merci ! Votre messagerie va préparer l'email.</p>
         </div>
       </form>
     </div>
@@ -68,9 +68,16 @@ const validate = () => {
   return !errors.name && !errors.email && !errors.message;
 };
 
+const openMailClient = () => {
+  const subject = encodeURIComponent('Contact portfolio');
+  const body = encodeURIComponent(`Nom : ${form.name}\nEmail : ${form.email}\n\nMessage :\n${form.message}`);
+  window.location.href = `mailto:loanroze33600@gmail.com?subject=${subject}&body=${body}`;
+};
+
 const handleSubmit = () => {
   success.value = false;
   if (!validate()) return;
+  openMailClient();
   success.value = true;
   Object.assign(form, { name: '', email: '', message: '' });
 };
