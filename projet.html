@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfolio — Projet</title>
+    <link rel="stylesheet" href="assets/dist/plugo.css">
+    <link rel="stylesheet" href="assets/base.css">
+    <link rel="stylesheet" href="assets/styleProjectSingle.css">
+    <script type="module" src="assets/scripts/projectSinglePage.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav-inner">
+            <div class="brand">
+                <div class="logo">
+                    <img class="rounded" src="https://picsum.photos/200/200?random=1" alt="">
+                </div>
+                <div>
+                    <div style="font-weight:700">Loan Roze</div>
+                    <div style="font-size:12px;color:var(--muted)">Développeur web</div>
+                </div>
+            </div>
+
+            <nav class="desktop">
+                <a href="/index.html">Accueil</a>
+                <a href="#skills">Compétences</a>
+                <a href="/projets.html">Projets</a>
+                <a class="external" href="#">GitHub</a>
+                <a class="external" href="#">CV</a>
+            </nav>
+
+            <div class="actions">
+                <button class="btn" id="themeToggle">Dark</button>
+                <div class="burger" id="burger">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <nav>
+                <a href="#hero">Accueil</a>
+                <a href="#skills">Compétences</a>
+                <a href="#projects">Projets</a>
+                <a href="#">GitHub</a>
+                <a href="#">CV</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero" id="hero">
+            <div class="profile col-12 container">
+                <img class="avatar" id="projectImg" src="https://picsum.photos/seed/loan/300/300" alt="Photo profil">
+                <div class="pname">
+                    <h1 id="projectTitle"></h1>
+                    <span id="projectShortDesc"></span>
+                    <small id="projectShortDesc" style="color:var(--muted);margin-top:8px"></small>
+                </div>
+            </div>
+
+            <div class="about col-12 container">
+                <h2>À propos du projet</h2>
+                <p id="projectLongDesc" style="color:var(--muted);margin-top:8px"></p>
+            </div>
+        </div>
+
+
+        <div class="project-links p-3 col-12 flex justify-center">
+            <a id="githubLink" href="#" target="_blank">Voir sur GitHub</a>
+            <a id="projectLink" href="#" target="_blank">Voir le projet</a>
+        </div>
+
+
+        <div style="height:80px"></div>
+    </main>
+</body>
+
+</html>
