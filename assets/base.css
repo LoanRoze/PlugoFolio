@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    color: var(--color-dark);
+    background: var(--color-light)
+}
+
+:root {
+    --color-light: var(--light);
+    --color-card: #f7f7f9;
+    --color-dark-light: var(--dark-light);
+    --color-light-dark: var(--light-dark);
+    --color-primary: var(--primary);
+    --color-dark: var(--dark);
+    --color-glass: rgba(255, 255, 255, 0.6);
+    --color-card-hover: var(--color-light-dark);
+    --card-number-in-carousel: 1
+}
+
+[data-theme="dark"] {
+    --color-light: var(--dark);
+    --color-card: var(--dark-light);
+    --color-dark-light: var(--light-dark);
+    --color-light-dark: var(--dark-dark);
+    --color-primary: var(--primary-light);
+    --color-dark: #e7e9ee;
+    --color-glass: rgba(8, 8, 10, 0.5);
+}
+
+@media (min-width: 700px) {
+    :root {
+        --card-number-in-carousel: 3
+    }
+}

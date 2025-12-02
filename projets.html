@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio — Accueil</title>
+  <title>Portfolio — Projets</title>
   <link rel="stylesheet" href="assets/dist/plugo.css">
   <link rel="stylesheet" href="assets/base.css">
-  <link rel="stylesheet" href="assets/style.css">
-  <script type="module" src="assets/scripts/mainPage.js" defer></script>
+  <link rel="stylesheet" href="assets/styleProjectPage.css">
+  <script type="module" src="./assets/scripts/projectPage.js" defer></script>
 </head>
 <body>
   <header>
@@ -64,23 +64,14 @@
       </div>
     </div>
 
-    <section class="section" id="skills">
-      <h2 class="pb-1">Compétences</h2>
-      <div class="skills-grid" id="skillsGrid"></div>
-    </section>
-
     <section class="section" id="projects">
       <h2 class="pb-1">Projets</h2>
       <div class="projects-controls">
         <input class="search" id="projectSearch" placeholder="Rechercher un projet..." />
         <div style="flex:1"></div>
-        <button class="btn" id="prev">‹</button>
-        <button class="btn" id="next">›</button>
       </div>
-
-      <div class="carousel">
-        <div class="cards p-2" id="cards"></div>
-      </div>
+        
+      <div class="cards p-2" id="cards"></div>
     </section>
   </main>
 

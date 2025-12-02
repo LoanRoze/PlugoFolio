@@ -188,43 +188,6 @@ main {
     margin-top: 0
 }
 
-/* Skills */
-.section {
-    margin-top: 28px
-}
-
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 12px
-}
-
-.skill {
-    background: var(--color-card);
-    padding: 12px;
-    border-radius: 10px
-}
-
-.skill .meta {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 8px
-}
-
-.bar {
-    height: 10px;
-    background: rgba(0, 0, 0, 0.06);
-    border-radius: 8px;
-    overflow: hidden
-}
-
-.bar>i {
-    display: block;
-    height: 100%;
-    width: 0;
-    background: linear-gradient(90deg, var(--color-primary), #5a43cb)
-}
-
 /* Projects */
 .projects-controls {
     display: flex;
@@ -240,21 +203,10 @@ main {
     background: transparent
 }
 
-.carousel {
-    position: relative;
-    overflow: hidden
-}
-
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    scroll-behavior: smooth;
-    overflow-x: auto;
-    scrollbar-width: none;
-}
-
-.cards::-webkit-scrollbar {
-    display: none;
 }
 
 .card {
@@ -263,16 +215,12 @@ main {
     overflow: hidden;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
     transition: all 0.3s ease-in-out;
-    flex: 0 0 calc((100% - 40px) / var(--card-number-in-carousel));
+    width: 100%;
 }
-
-
-
 
 .card:hover {
     background-color: var(--color-light-dark);
     transition: all 0.3s ease-in-out;
-
 }
 
 .card img {
@@ -295,27 +243,6 @@ main {
     color: var(--color-dark-light);
     font-size: 14px;
     text-decoration: none !important
-}
-
-.carousel .btn-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: var(--color-card);
-    border-radius: 8px;
-    border: none;
-    padding: 8px;
-    cursor: pointer
-}
-
-
-
-.btn-prev {
-    left: -18px
-}
-
-.btn-next {
-    right: -18px
 }
 
 /* Responsiveness */
