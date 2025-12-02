@@ -79,6 +79,32 @@ agréables, la performance et l'accessibilité, le tout au sein d'une seule page
         <div class="cards p-2" id="cards"></div>
       </div>
     </section>
+
+    <section class="section" id="contact">
+      <div class="container col-12">
+        <h2 class="pb-1">Contact</h2>
+        <p class="muted">Un formulaire fictif pour tester plugo.css.</p>
+
+        <form class="card p-3" novalidate>
+          <div class="field">
+            <label for="contactEmail">Email</label>
+            <input id="contactEmail" type="email" name="email" placeholder="votre@email.com" required />
+          </div>
+
+          <div class="field">
+            <label for="contactName">Nom complet</label>
+            <input id="contactName" type="text" name="name" placeholder="Votre nom" required />
+          </div>
+
+          <div class="field">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="4" placeholder="Votre message" required></textarea>
+          </div>
+
+          <button class="btn primary" type="button">Envoyer</button>
+        </form>
+      </div>
+    </section>
   </main>
 
   <div style="height:80px"></div>
