@@ -1,29 +1,83 @@
 [
   {
     "id": 1,
-    "nom_projet": "Site vitrine",
-    "description_courte": "Petit projet d'un site vitrine sur une agence de voyage",
-    "description_longue": "Ce projet a été réalisé pour présenter une agence de voyage avec un design moderne et responsive.",
-    "img_url": "https://picsum.photos/seed/vitrine/800/600",
-    "lien_github": "https://github.com/LoanRoze/projet",
+    "nom_projet": "NovaBoard Analytics",
+    "description_courte": "Tableau de bord SaaS fictif pour suivre des indicateurs produits.",
+    "description_longue": "Une interface responsive qui agrège des métriques temps réel, avec filtres et graphiques dynamiques pour illustrer la visualisation de données.",
+    "img_url": "https://picsum.photos/seed/novaboard/800/600",
+    "lien_github": "",
     "lien_projet": ""
   },
   {
     "id": 2,
-    "nom_projet": "TirAuxLoan (Jeu)",
-    "description_courte": "Jeu JS avec interactions sonores et manette",
-    "description_longue": "Shooter 2D en JavaScript avec gestion des entrées clavier et manette ainsi que des effets sonores.",
-    "img_url": "https://picsum.photos/seed/game/800/600",
-    "lien_github": "https://github.com/LoanRoze/tirauxloan",
+    "nom_projet": "Chronos API",
+    "description_courte": "Service fictif pour planifier des notifications et tâches différées.",
+    "description_longue": "Un backend Node simulé qui gère une file d'attente et expose une documentation OpenAPI, pensé pour illustrer l'architecture d'API modernes.",
+    "img_url": "https://picsum.photos/seed/chronos/800/600",
+    "lien_github": "",
     "lien_projet": ""
   },
   {
     "id": 3,
-    "nom_projet": "Accurate Money",
-    "description_courte": "Outil de gestion financière perso",
-    "description_longue": "Application permettant de suivre ses dépenses et revenus avec des graphiques et des alertes personnalisables.",
-    "img_url": "https://picsum.photos/seed/money/800/600",
-    "lien_github": "https://github.com/LoanRoze/accurate-money",
+    "nom_projet": "Atlas Maps",
+    "description_courte": "Explorateur cartographique avec filtres de points d'intérêt.",
+    "description_longue": "Un prototype front-end qui affiche des cartes vectorielles, permet de filtrer des lieux et d'enregistrer des favoris localement.",
+    "img_url": "https://picsum.photos/seed/atlas/800/600",
+    "lien_github": "",
+    "lien_projet": ""
+  },
+  {
+    "id": 4,
+    "nom_projet": "Pulse Monitor",
+    "description_courte": "Tableau de bord fictif pour surveiller des microservices.",
+    "description_longue": "Mise en avant d'un design clair pour suivre l'état de services, les logs récents et des alertes configurables.",
+    "img_url": "https://picsum.photos/seed/pulse/800/600",
+    "lien_github": "",
+    "lien_projet": ""
+  },
+  {
+    "id": 5,
+    "nom_projet": "Aurora Shop",
+    "description_courte": "Mini boutique front-end avec parcours d'achat simplifié.",
+    "description_longue": "Pages produits, panier local et étapes de paiement fictives pour illustrer la composition de composants UI.",
+    "img_url": "https://picsum.photos/seed/aurora/800/600",
+    "lien_github": "",
+    "lien_projet": ""
+  },
+  {
+    "id": 6,
+    "nom_projet": "Studio Stream",
+    "description_courte": "Page d'accueil fictive pour une plateforme de streaming en direct.",
+    "description_longue": "Design mettant en avant des créateurs, une grille de contenus live et un système de mise en avant éditoriale.",
+    "img_url": "https://picsum.photos/seed/studio/800/600",
+    "lien_github": "",
+    "lien_projet": ""
+  },
+  {
+    "id": 7,
+    "nom_projet": "Kairo Notes",
+    "description_courte": "Prise de notes collaborative en temps réel.",
+    "description_longue": "Prototype qui simule la synchro multi-utilisateurs et affiche l'historique des versions pour mettre en valeur la collaboration.",
+    "img_url": "https://picsum.photos/seed/kairo/800/600",
+    "lien_github": "",
+    "lien_projet": ""
+  },
+  {
+    "id": 8,
+    "nom_projet": "Orbit Tasks",
+    "description_courte": "Gestionnaire de tâches fictif avec priorités et étiquettes.",
+    "description_longue": "Organisation de tâches par projet, filtres rapides et animations douces pour illustrer une UX soignée.",
+    "img_url": "https://picsum.photos/seed/orbit/800/600",
+    "lien_github": "",
+    "lien_projet": ""
+  },
+  {
+    "id": 9,
+    "nom_projet": "Nimbus Docs",
+    "description_courte": "Editeur markdown simplifié avec rendu instantané.",
+    "description_longue": "Un éditeur fictif qui met en avant la prévisualisation en direct, la gestion de thèmes et l'export de documents.",
+    "img_url": "https://picsum.photos/seed/nimbus/800/600",
+    "lien_github": "",
     "lien_projet": ""
   }
 ]
