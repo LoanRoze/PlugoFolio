@@ -1,0 +1,7 @@
+[
+  { "nom_competence": "JavaScript", "niveau_competence": 9 },
+  { "nom_competence": "Java", "niveau_competence": 8 },
+  { "nom_competence": "React", "niveau_competence": 8 },
+  { "nom_competence": "Node.js", "niveau_competence": 7 },
+  { "nom_competence": "CSS", "niveau_competence": 9 }
+]

@@ -1,20 +1,29 @@
 [
   {
-    "title": "Site Vitrine Moderne",
-    "description": "Landing page professionnelle réalisée pour un client.",
-    "type": "vitrine",
-    "image": "https://picsum.photos/600/400?1"
+    "id": 1,
+    "nom_projet": "Site vitrine",
+    "description_courte": "Petit projet d'un site vitrine sur une agence de voyage",
+    "description_longue": "Ce projet a été réalisé pour présenter une agence de voyage avec un design moderne et responsive.",
+    "img_url": "https://picsum.photos/seed/vitrine/800/600",
+    "lien_github": "https://github.com/LoanRoze/projet",
+    "lien_projet": ""
   },
   {
-    "title": "Application Web React",
-    "description": "Application complète avec API REST.",
-    "type": "webapp",
-    "image": "https://picsum.photos/600/400?2"
+    "id": 2,
+    "nom_projet": "TirAuxLoan (Jeu)",
+    "description_courte": "Jeu JS avec interactions sonores et manette",
+    "description_longue": "Shooter 2D en JavaScript avec gestion des entrées clavier et manette ainsi que des effets sonores.",
+    "img_url": "https://picsum.photos/seed/game/800/600",
+    "lien_github": "https://github.com/LoanRoze/tirauxloan",
+    "lien_projet": ""
   },
   {
-    "title": "Projet d'école",
-    "description": "Projet full JS réalisé dans un cadre pédagogique.",
-    "type": "ecole",
-    "image": "https://picsum.photos/600/400?3"
+    "id": 3,
+    "nom_projet": "Accurate Money",
+    "description_courte": "Outil de gestion financière perso",
+    "description_longue": "Application permettant de suivre ses dépenses et revenus avec des graphiques et des alertes personnalisables.",
+    "img_url": "https://picsum.photos/seed/money/800/600",
+    "lien_github": "https://github.com/LoanRoze/accurate-money",
+    "lien_projet": ""
   }
 ]
