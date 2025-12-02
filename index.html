@@ -1,111 +1,15 @@
 <!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio — Accueil</title>
-  <link rel="stylesheet" href="assets/dist/plugo.css">
-  <link rel="stylesheet" href="assets/base.css">
-  <link rel="stylesheet" href="assets/style.css">
-  <script type="module" src="assets/scripts/pages/mainPage.js" defer></script>
-</head>
-<body>
-  <header>
-    <div class="nav-inner">
-      <div class="brand">
-        <div class="logo">
-            <img class="rounded" src="https://picsum.photos/200/200?random=1" alt="">
-        </div>
-        <div>
-          <div style="font-weight:700">Studio Anonyme</div>
-          <div style="font-size:12px;color:var(--muted)">Développeur web</div>
-        </div>
-      </div>
-
-      <nav class="desktop">
-        <a href="#hero">Accueil</a>
-        <a class="external" href="#">GitHub</a>
-        <a class="external" href="#">CV</a>
-      </nav>
-
-      <div class="actions">
-        <button class="btn" id="themeToggle">Dark</button>
-        <div class="burger" id="burger"><div></div></div>
-      </div>
-    </div>
-
-    <div class="mobile-menu" id="mobileMenu">
-      <nav>
-        <a href="#hero">Accueil</a>
-        <a class="external" href="#">GitHub</a>
-        <a class="external" href="#">CV</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <div class="hero" id="hero">
-      <div class="profile col-12 container">
-        <img class="avatar" src="https://picsum.photos/seed/anonyme/300/300" alt="Illustration de profil">
-        <div class="pname">
-          <h1>Portfolio anonyme</h1>
-          <span>Création d'applications</span>
-        </div>
-      </div>
-
-      <div class="about col-12 container">
-        <h2>À propos de ce portfolio</h2>
-        <p style="color:var(--muted);margin-top:8px">Ce site présente une sélection de projets fictifs qui illustrent différentes
-approches front-end et back-end. Il met l'accent sur la conception d'interfaces
-agréables, la performance et l'accessibilité, le tout au sein d'une seule page.</p>
-      </div>
-    </div>
-
-    <section class="section" id="skills">
-      <h2 class="pb-1">Compétences</h2>
-      <div class="skills-grid" id="skillsGrid"></div>
-    </section>
-
-    <section class="section" id="projects">
-      <h2 class="pb-1">Projets</h2>
-      <div class="projects-controls">
-        <input class="search" id="projectSearch" placeholder="Rechercher un projet..." />
-        <div style="flex:1"></div>
-        <button class="btn" id="prev">‹</button>
-        <button class="btn" id="next">›</button>
-      </div>
-
-      <div class="carousel">
-        <div class="cards p-2" id="cards"></div>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="container col-12">
-        <h2 class="pb-1">Contact</h2>
-
-        <form class="container p-3" novalidate>
-          <div class="field">
-            <label for="contactEmail">Email</label>
-            <input id="contactEmail" type="email" name="email" placeholder="votre@email.com" required />
-          </div>
-
-          <div class="field">
-            <label for="contactName">Nom complet</label>
-            <input id="contactName" type="text" name="name" placeholder="Votre nom" required />
-          </div>
-
-          <div class="field">
-            <label for="contactMessage">Message</label>
-            <textarea id="contactMessage" name="message" rows="4" placeholder="Votre message" required></textarea>
-          </div>
-
-          <button class="btn primary" type="button">Envoyer</button>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <div style="height:80px"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlugoFolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
