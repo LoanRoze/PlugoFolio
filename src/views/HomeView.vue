@@ -2,7 +2,7 @@
   <div>
     <HeroSection />
     <SkillsSection :skills="skills" />
-    <ProjectList :projects="projects" :limit="3" />
+    <ProjectList :projects="highlightedProjects" />
     <ContactForm />
   </div>
 </template>
@@ -14,5 +14,5 @@ import ProjectList from '../components/ProjectList.vue';
 import SkillsSection from '../components/SkillsSection.vue';
 import { usePortfolioData } from '../composables/usePortfolioData';
 
-const { projects, skills } = usePortfolioData();
+const { highlightedProjects, skills } = usePortfolioData();
 </script>

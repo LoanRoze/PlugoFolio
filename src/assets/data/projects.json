@@ -1,83 +1,74 @@
 [
   {
     "id": 1,
-    "nom_projet": "NovaBoard Analytics",
-    "description_courte": "Tableau de bord SaaS fictif pour suivre des indicateurs produits.",
-    "description_longue": "Une interface responsive qui agrège des métriques temps réel, avec filtres et graphiques dynamiques pour illustrer la visualisation de données.",
-    "img_url": "https://picsum.photos/seed/novaboard/800/600",
-    "lien_github": "",
-    "lien_projet": ""
+    "nom_projet": "RatFender",
+    "description_courte": "Tower defense en PixiJS où l'on repousse des vagues de rats avec des fromages évolutifs.",
+    "description_longue": "Un jeu arcade réalisé lors d'un hackathon : quatre types de rats avec des résistances différentes, six items pour moduler les projectiles, un système de vagues dynamiques et un leaderboard en ligne pour suivre les scores.",
+    "img_url": "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?auto=format&fit=crop&w=1200&q=80",
+    "lien_github": "https://github.com/LoanRoze/hackaton_ratfender",
+    "lien_projet": "https://ratfender.netlify.app/"
   },
   {
     "id": 2,
-    "nom_projet": "Chronos API",
-    "description_courte": "Service fictif pour planifier des notifications et tâches différées.",
-    "description_longue": "Un backend Node simulé qui gère une file d'attente et expose une documentation OpenAPI, pensé pour illustrer l'architecture d'API modernes.",
-    "img_url": "https://picsum.photos/seed/chronos/800/600",
-    "lien_github": "",
+    "nom_projet": "DreamCatcher",
+    "description_courte": "Application mobile React Native pour archiver ses rêves et visualiser des statistiques de sommeil.",
+    "description_longue": "Développée sous Expo, l'app propose un formulaire rapide au réveil, la liste chronologique des entrées, ainsi que des indicateurs de fréquence et de jours actifs pour mieux comprendre ses habitudes nocturnes.",
+    "img_url": "https://images.unsplash.com/photo-1454117096348-e4abbeba002c?auto=format&fit=crop&w=1200&q=80",
+    "lien_github": "https://github.com/LoanRoze/DreamCatcher",
     "lien_projet": ""
   },
   {
     "id": 3,
-    "nom_projet": "Atlas Maps",
-    "description_courte": "Explorateur cartographique avec filtres de points d'intérêt.",
-    "description_longue": "Un prototype front-end qui affiche des cartes vectorielles, permet de filtrer des lieux et d'enregistrer des favoris localement.",
-    "img_url": "https://picsum.photos/seed/atlas/800/600",
-    "lien_github": "",
+    "nom_projet": "cli2text",
+    "description_courte": "Outil CLI Node.js qui génère l'arborescence stylisée d'un dossier avec tailles et exclusions.",
+    "description_longue": "Le script scanne un répertoire, applique des filtres d'exclusion, colore la sortie via chalk et exporte automatiquement un fichier output.txt pour documenter une structure de projet.",
+    "img_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "lien_github": "https://github.com/LoanRoze/cli2text",
     "lien_projet": ""
   },
   {
     "id": 4,
-    "nom_projet": "Pulse Monitor",
-    "description_courte": "Tableau de bord fictif pour surveiller des microservices.",
-    "description_longue": "Mise en avant d'un design clair pour suivre l'état de services, les logs récents et des alertes configurables.",
-    "img_url": "https://picsum.photos/seed/pulse/800/600",
-    "lien_github": "",
+    "nom_projet": "API de Gestion des Héros",
+    "description_courte": "API REST Node/Express avec Sequelize et SQLite pour gérer héros, pouvoirs et missions.",
+    "description_longue": "CRUD complet, affectation de missions, restauration des entités supprimées et architecture MVC claire, accompagnés d'une documentation pour tester rapidement les endpoints.",
+    "img_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+    "lien_github": "https://github.com/LoanRoze/FBH",
     "lien_projet": ""
   },
   {
     "id": 5,
-    "nom_projet": "Aurora Shop",
-    "description_courte": "Mini boutique front-end avec parcours d'achat simplifié.",
-    "description_longue": "Pages produits, panier local et étapes de paiement fictives pour illustrer la composition de composants UI.",
-    "img_url": "https://picsum.photos/seed/aurora/800/600",
-    "lien_github": "",
+    "nom_projet": "CatFinder",
+    "description_courte": "Plateforme web dédiée aux annonces de chats perdus ou retrouvés, avec photo et description.",
+    "description_longue": "Un site en cours de construction axé sur la simplicité du dépôt d'annonce : ajout d'une photo, description et localisation pour faciliter les retrouvailles entre propriétaires et bonnes âmes.",
+    "img_url": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=1200&q=80",
+    "lien_github": "https://github.com/LoanRoze/CatFinder",
     "lien_projet": ""
   },
   {
     "id": 6,
-    "nom_projet": "Studio Stream",
-    "description_courte": "Page d'accueil fictive pour une plateforme de streaming en direct.",
-    "description_longue": "Design mettant en avant des créateurs, une grille de contenus live et un système de mise en avant éditoriale.",
-    "img_url": "https://picsum.photos/seed/studio/800/600",
-    "lien_github": "",
-    "lien_projet": ""
+    "nom_projet": "Accurate Money",
+    "description_courte": "Gestionnaire financier personnel pour suivre dépenses, dettes et cartes bancaires.",
+    "description_longue": "Interface web avec compteur temps réel, ardoise pour dettes et remboursements, historique de transactions, graphique d'activité sur sept jours et calculatrice intégrée pour rester au clair sur les finances.",
+    "img_url": "https://images.unsplash.com/photo-1454165205744-3b78555e5572?auto=format&fit=crop&w=1200&q=80",
+    "lien_github": "https://github.com/LoanRoze/AccurateMoney",
+    "lien_projet": "https://accuratemoney.netlify.app"
   },
   {
     "id": 7,
-    "nom_projet": "Kairo Notes",
-    "description_courte": "Prise de notes collaborative en temps réel.",
-    "description_longue": "Prototype qui simule la synchro multi-utilisateurs et affiche l'historique des versions pour mettre en valeur la collaboration.",
-    "img_url": "https://picsum.photos/seed/kairo/800/600",
-    "lien_github": "",
-    "lien_projet": ""
+    "nom_projet": "TirAuxKirby",
+    "description_courte": "Premier projet Three.js : mini-jeu 3D délirant pour faire taire les Kirby avec une cible.",
+    "description_longue": "Scène 3D interactive avec interactions au clic, feedback sonore cartoon et ambiance volontairement fun pour découvrir les bases de Three.js et des animations en WebGL.",
+    "img_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80",
+    "lien_github": "https://github.com/LoanRoze/TirAuxKirby",
+    "lien_projet": "https://tirauxkirby.vercel.app"
   },
   {
     "id": 8,
-    "nom_projet": "Orbit Tasks",
-    "description_courte": "Gestionnaire de tâches fictif avec priorités et étiquettes.",
-    "description_longue": "Organisation de tâches par projet, filtres rapides et animations douces pour illustrer une UX soignée.",
-    "img_url": "https://picsum.photos/seed/orbit/800/600",
-    "lien_github": "",
-    "lien_projet": ""
-  },
-  {
-    "id": 9,
-    "nom_projet": "Nimbus Docs",
-    "description_courte": "Editeur markdown simplifié avec rendu instantané.",
-    "description_longue": "Un éditeur fictif qui met en avant la prévisualisation en direct, la gestion de thèmes et l'export de documents.",
-    "img_url": "https://picsum.photos/seed/nimbus/800/600",
-    "lien_github": "",
-    "lien_projet": ""
+    "nom_projet": "Tir Aux Loan",
+    "description_courte": "Jeu rétro en JavaScript avec commandes cachées et sons enregistrés maison.",
+    "description_longue": "Premier projet JavaScript mêlant HTML/CSS : démarrage via la manette virtuelle, changement de thème, ajustement de la difficulté ou de la couleur de fond, avec tous les effets sonores enregistrés à la voix.",
+    "img_url": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=1200&q=80",
+    "lien_github": "https://github.com/LoanRoze/TirAuxLoan",
+    "lien_projet": "https://tirauxloan.netlify.app"
   }
 ]

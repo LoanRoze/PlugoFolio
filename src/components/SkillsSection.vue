@@ -3,7 +3,7 @@
     <div class="card-surface p-6 md:p-8">
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-xl font-semibold text-slate-900">Compétences clés</h2>
-        <span class="text-sm text-slate-500">Basées sur le JSON d'origine</span>
+        <span class="text-sm text-slate-500">Front, mobile et backend</span>
       </div>
       <div class="grid gap-4 md:grid-cols-2">
         <div v-for="skill in skills" :key="skill.nom_competence" class="space-y-2">
